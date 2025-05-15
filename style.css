@@ -1,0 +1,6 @@
+h1 {
+  text-align: center;    /* centers the text */
+  font-size: 48px;       /* makes the text bigger */
+  margin-top: 50px;      /* optional: adds space from top */
+  color: #333333;        /* optional: text color */
+}
