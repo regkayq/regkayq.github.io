@@ -1,4 +1,4 @@
-/* Reset some default styles */
+/* Reset default styles */
 * {
   margin: 0;
   padding: 0;
@@ -13,12 +13,12 @@ body {
   padding: 2rem;
 }
 
+/* Header and navigation */
 h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 
-/* Navigation */
 nav ul {
   list-style: none;
   display: flex;
@@ -38,7 +38,7 @@ nav ul li a:hover {
   color: #000;
 }
 
-/* Gallery container */
+/* Gallery layout */
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -48,18 +48,17 @@ nav ul li a:hover {
   padding: 0 1rem;
 }
 
-/* Gallery images */
+/* Image style */
 .gallery img {
   width: 100%;
-  height: 100%;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
-  display: block;
-  aspect-ratio: 1 / 1; /* Makes images square */
   border-radius: 4px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: block;
 }
 
-/* Optional: responsive behavior for mobile */
+/* Mobile responsiveness */
 @media (max-width: 768px) {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
