@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kay Quade</title>
-  <link rel="stylesheet" href="style.css?v=1.1">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="lightbox.css" />
 </head>
 <body>
   <header>
@@ -23,12 +24,20 @@
   </header>
 
   <main class="gallery">
-    <img src="39618124812_41976a0557_o.jpg" alt="Lion in nature">
-    <img src="222.jpg" alt="Swans and man in fog">
-    <img src="51457488960_f69f9e1e17_o.jpg" alt="Man sitting on street">
-    <img src="51448961501_78dbe837c4_k(1).jpg" alt="Modern building">
-    <img src="DSC01191.jpg" alt="Hanging figure between buildings">
-    <img src="DSC00951x.jpg" alt="Clock tower">
+    <img src="39618124812_41976a0557_o.jpg" alt="Lion in nature" />
+    <img src="222.jpg" alt="Swans and man in fog" />
+    <img src="51457488960_f69f9e1e17_o.jpg" alt="Man sitting on street" />
+    <img src="51448961501_78dbe837c4_k(1).jpg" alt="Modern building" />
+    <img src="DSC01191.jpg" alt="Hanging figure between buildings" />
+    <img src="DSC00951x.jpg" alt="Clock tower" />
   </main>
+
+  <!-- Lightbox overlay -->
+  <div class="lightbox-overlay" id="lightbox">
+    <span class="lightbox-close" id="lightbox-close">&times;</span>
+    <img src="" alt="" id="lightbox-img" />
+  </div>
+
+  <script src="lightbox.js"></script>
 </body>
 </html>
