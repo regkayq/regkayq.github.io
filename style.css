@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-/* Page styling */
+/* Body styles */
 body {
   font-family: 'Georgia', serif;
   background-color: #fff;
@@ -16,7 +16,7 @@ body {
 
 /* Header */
 header {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 h1 {
@@ -27,8 +27,8 @@ h1 {
 nav ul {
   list-style: none;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem;
 }
 
@@ -42,23 +42,24 @@ nav ul li a:hover {
   color: #000;
 }
 
-/* Gallery grid */
+/* GALLERY GRID */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 1rem;
 }
 
-/* Image styling */
+/* IMAGE STYLING */
 .gallery img {
   width: 100%;
-  height: auto;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border-radius: 4px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   display: block;
 }
+
+
